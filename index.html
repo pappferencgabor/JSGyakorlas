@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>valami</title>
+</head>
+<body>
+    <input type="text" name="" id="szamtol"> <label for="szamtol">-tól</label>
+
+    <input type="text" name="" id="szamig"> <label for="szamig">-ig</label>
+
+    <br><br>
+
+    <input type="radio" name="mod" id="paros"> <label for="paros"> páros </label>
+
+    <input type="radio" name="mod" id="paratlan" checked> <label for="paratlan"> paratlan </label>
+
+    <input type="radio" name="mod" id="oszthato"> <input type="number" id="sajat"> <label for="sajat"> -tel osztható </label>
+
+    <br><br>
+    <input type="button" value="Kiválaszt" id="kivalaszt" onclick="Kivalasztas()">
+
+    <br><br>
+    <select name="" id="eredmenyek" size="10"></select>
+
+    <script src="script.js"></script>
+</body>
+</html>
