@@ -11,3 +11,14 @@ function Kivalasztas() {
         }
     }
 }
+function MindetTorol() {
+    let elemek = document.getElementById("eredmenyek");
+
+    while (elemek.firstChild) {
+        elemek.removeChild(elemek.firstChild);
+    }
+}
+function EgyetTorol() {
+    let elemek = document.getElementById("eredmenyek");
+    elemek.remove(elemek.selectedIndex);
+}
